@@ -2,7 +2,7 @@
 
 Examen 3 de Análisis Predictivo (Licenciatura en Analítica, ITBA): competencia de Kaggle **ap-2026-q-2**. Hay que clasificar si cada publicación de MercadoLibre es un producto nuevo (`new`) o usado (`used`). La métrica es Accuracy.
 
-**Resultado:** 0,93742 en el leaderboard público y 93,54 % de accuracy en validación cruzada (5 folds estratificados). El modelo final es un LightGBM sobre 125 features:
+**Resultado:** 0,93788 en el leaderboard privado, 0,93742 en el leaderboard público y 93,54 % de accuracy en validación cruzada (5 folds estratificados). El modelo final es un LightGBM sobre 125 features:
 - precio y cantidades;
 - columnas anidadas aplanadas;
 - frases clave del título y la garantía;
